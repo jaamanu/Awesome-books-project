@@ -1,4 +1,5 @@
 # Awesome-books-project
+
 AwesomeBooks
 A basic website that allows users to add/remove books from a list.
 
@@ -28,17 +29,25 @@ Run tests
 These were linter tests mainly
 
 For css, run npx hint .
-Html, run npx stylelint "**/*.{css,scss}"
+Html, run npx stylelint "\*_/_.{css,scss}"
 Javascript npx eslint .
 Deployment
-Authors
-👤 JAMES ASIBEY
 
-Github: jaamanu
-👤 Faranosh Amini
+## Author 1
 
-GitHub: 
+👤 **JAMES ASIBEY**
 
+- GitHub:
+- Twitter:
+- LinkedIn:
+
+## Author 2
+
+👤 **Faranosh Amini**
+
+- GitHub: [@FaranoshAmini](https://github.com/FaranoshAmini)
+- Twitter: [@Faranosh_Amini](https://twitter.com/Faranosh_Amini)
+- LinkedIn: [@Faranosh_Amini](https://www.linkedin.com/in/faranosh-amini-9b925b23a/)
 
 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
