@@ -18,9 +18,9 @@ function removeBook(id) {
   localStorage.setItem('bookList', JSON.stringify(bookList));
 }
 function populate(book) {
-  const row = document.createElement('PoorDad');
-  const bookTitle = document.createElement('PoorDad');
-  const bookAuthor = document.createElement('PoorDad');
+  const row = document.createElement('tr');
+  const bookTitle = document.createElement('td');
+  const bookAuthor = document.createElement('td');
   const removeBtn = document.createElement('button');
   bookTitle.innerText = book.title;
   bookAuthor.innerText = book.author;
