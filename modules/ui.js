@@ -1,14 +1,14 @@
-import Store from "./store.js";
+import Store from './store.js';
 
 export default class UI {
   static showBooks() {
-    const books = Store.getBooks()
-    books.forEach((book) => UI.addBookToList(book))
+    const books = Store.getBooks();
+    books.forEach((book) => UI.addBookToList(book));
   }
 
   static addBookToList(book) {
-    const bookHolder = document.querySelector('.bookDisplay')
-    const newDiv = document.createElement('div')
+    const bookHolder = document.querySelector('.bookDisplay');
+    const newDiv = document.createElement('div');
     newDiv.innerHTML = `
     <div>
     <div class="flexIt">
@@ -18,20 +18,19 @@ export default class UI {
     </div>
     <hr>
     </div>
-    `
-    newDiv.classList.add('newDiv')
-    bookHolder.appendChild(newDiv)
+    `;
+    newDiv.classList.add('newDiv');
+    bookHolder.appendChild(newDiv);
   }
 
   static deleteBook(el) {
-    if(el.classList.contains('remove')){
+    if (el.classList.contains('remove')) {
       el.parentElement.parentElement.remove();
     }
   }
 
   static clearFields() {
-    document.querySelector('#title').value = ''
-    document.querySelector('#author').value = ''
+    document.querySelector('#title').value = '';
+    document.querySelector('#author').value = '';
   }
-
 }
