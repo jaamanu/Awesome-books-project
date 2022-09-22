@@ -9,6 +9,7 @@
   margin-top: 20px;
   font-family: sans-serif;
 }
+
 .bookDisplay {
   border: 2px solid #111;
   width: 80%;
@@ -26,6 +27,7 @@
   text-align: center;
   font-family: sans-serif;
 }
+
 #book-card {
   width: 40%;
   margin: auto;
@@ -48,7 +50,7 @@
 
 #add {
   padding: 5px;
-  box-shadow: #1C1C1C 2px 2px;
+  box-shadow: #1c1c1c 2px 2px;
 }
 
 .hidey {
@@ -64,5 +66,5 @@
 
 .remove {
   padding: 4px;
-  box-shadow: #1C1C1C 3px 3px;
+  box-shadow: #1c1c1c 3px 3px;
 }
