@@ -4,26 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Exciting Books</title>
 </head>
 <body>
-    <h1>Exciting Books</h1>
-    <table>
-        <tr>
-            <th>Title</th>
-            <th>Author</th>
-            <th></th> 
-        </tr>
-        <tbody id="library">
-        </tbody>
-    </table>
-    <br>
+    <div><h1 class="awesomeBooks">Awesome Books</h1></div>
+
+    <div class="bookDisplay">
+        
+    </div>
+
+
     <form id="book-card" action="#">
+        <h2 class="formHeader">Add a book</h2>
         <input id="title" type="text" placeholder="Title"> <br><br>
         <input id="author" type="text" placeholder="Author"><br><br>
-        <input id="add" type="submit" value="Add">
+        <div class="but">
+        <button id="add" type="submit"> Add </button>
+        </div>
     </form>
-    <script src="jvs.js"></script>
+    <script src="jvs.js" type="module"></script>
 </body>
 </html>
