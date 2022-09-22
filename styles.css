@@ -40,3 +40,29 @@
   width: 100%;
   padding: 3px;
 }
+
+.but {
+  display: flex;
+  justify-content: right;
+}
+
+#add {
+  padding: 5px;
+  box-shadow: #1C1C1C 2px 2px;
+}
+
+.hidey {
+  display: none;
+}
+
+.flexIt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+}
+
+.remove {
+  padding: 4px;
+  box-shadow: #1C1C1C 3px 3px;
+}
