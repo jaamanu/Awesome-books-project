@@ -2,3 +2,16 @@
   padding: 0;
   margin: 0;
 }
+
+.awesomeBooks {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+.bookDisplay {
+  border: 2px solid #111;
+  width: 80%;
+  margin: auto;
+  font-family: sans-serif;
+}
