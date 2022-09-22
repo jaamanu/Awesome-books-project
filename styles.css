@@ -19,3 +19,14 @@
 .newDiv:nth-child(odd) {
   background-color: #eee;
 }
+
+.formHeader {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: sans-serif;
+}
+#book-card {
+  width: 40%;
+  margin: auto;
+}
