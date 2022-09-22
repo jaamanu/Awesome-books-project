@@ -15,3 +15,7 @@
   margin: auto;
   font-family: sans-serif;
 }
+
+.newDiv:nth-child(odd) {
+  background-color: #eee;
+}
