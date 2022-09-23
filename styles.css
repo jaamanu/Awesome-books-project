@@ -185,3 +185,14 @@ footer {
   font-weight: 600;
   margin-bottom: 30px;
 }
+
+.contactDiv {
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.contactUsUl {
+  list-style-type: none;
+}
