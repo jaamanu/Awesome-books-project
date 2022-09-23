@@ -196,3 +196,19 @@ footer {
 .contactUsUl {
   list-style-type: none;
 }
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+}
+
+.foot {
+  width: 90%;
+  margin: auto;
+  border: 2px solid #111;
+}
+
+.footerHead {
+  padding-left: 10px;
+}
