@@ -12,7 +12,7 @@ class Book {
 document.addEventListener('DOMContentLoaded', UI.showBooks);
 document.querySelector('#book-card').addEventListener('submit', (e) => {
   e.preventDefault();
-  console.log('hey');
+  // console.log('hey');
   const title = document.querySelector('#title').value;
   const author = document.querySelector('#author').value;
   if (title !== '' && author !== '') {
@@ -29,6 +29,50 @@ document.querySelector('.bookDisplay').addEventListener('click', (e) => {
     Store.deleteBookStorage(id);
     UI.deleteBook(e.target);
   }
+});
+
+const form = document.querySelector('#book-card');
+const awesome = document.querySelector('.awesomeBooks');
+const bookDisplay = document.querySelector('.bookDisplay');
+const list = document.querySelector('.lists');
+const addNew = document.querySelector('.addNew');
+const contact = document.querySelector('.contact');
+const contactUs = document.querySelector('.contactUs');
+
+list.addEventListener('click', () => {
+  awesome.style.display = 'block';
+  bookDisplay.style.display = 'block';
+  form.style.display = 'none';
+  contactUs.style.display = 'none';
+});
+
+addNew.addEventListener('click', () => {
+  form.style.display = 'block';
+  awesome.style.display = 'none';
+  bookDisplay.style.display = 'none';
+  contactUs.style.display = 'none';
+});
+
+contact.addEventListener('click', () => {
+  contactUs.innerHTML = `
+  <h2 class="contactUsHeader">Contact Information</h2>
+  <p class="contactUsParagraph">Do you have any question, or you just want to say "Hi"?
+      <br>
+      You can reach out to us!
+  </p>
+  <div class="contactDiv">
+      <ul class="contactUsUl">
+          <li>- &nbsp; Our email address jaamanu@gmail.com</li>
+          <li>- &nbsp; Our email address famini@gmail.com </li>
+          <li>- &nbsp; Our phone numbers +270730732316</li>
+          <li>- &nbsp; Our house address 23 chicago ave capetown South Africa</li>
+      </ul>
+  </div>
+  `;
+  contactUs.style.display = 'block';
+  form.style.display = 'none';
+  awesome.style.display = 'none';
+  bookDisplay.style.display = 'none';
 });
 
 // const title = document.querySelector('#title');

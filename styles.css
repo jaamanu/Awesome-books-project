@@ -68,3 +68,96 @@
   padding: 4px;
   box-shadow: #1c1c1c 3px 3px;
 }
+
+.navLists {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 600;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.list:nth-child(1) {
+  border-right: 2px solid #111;
+  width: 40px;
+}
+
+.list:nth-child(2) {
+  border-right: 2px solid #111;
+  width: 70px;
+}
+
+.nav {
+  width: 80%;
+  margin: auto;
+}
+
+.navDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border: 2px solid #111;
+  padding: 5px;
+}
+
+.navHeader {
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.contactUs {
+  display: none;
+  width: 50%;
+  margin: auto;
+}
+
+.contactUsHeader {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 26px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contactUsParagraph {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.contactDiv {
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.contactUsUl {
+  list-style-type: none;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+}
+
+.foot {
+  width: 90%;
+  margin: auto;
+  border: 2px solid #111;
+}
+
+.footerHead {
+  padding-left: 10px;
+}

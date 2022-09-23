@@ -4,10 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>AWESOME-BOOKS-ES6</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <nav class="nav">
+        <div class="navDiv">
+            <div class="navHeader">Awesome Books</div>
+            <ul class="navLists">
+                <li class="list lists">Lists</li>
+                <li class="list addNew">Add New</li>
+                <li class="list contact">Contact</li>
+            </ul>
+        </div>
+    </nav>
+
     <div><h1 class="awesomeBooks">Awesome Books</h1></div>
 
     <div class="bookDisplay">
@@ -16,13 +27,24 @@
 
 
     <form id="book-card" action="#">
-        <h2 class="formHeader">Add a book</h2>
+        <h2 class="formHeader">Add a new book</h2>
         <input id="title" type="text" placeholder="Title"> <br><br>
         <input id="author" type="text" placeholder="Author"><br><br>
         <div class="but">
         <button id="add" type="submit"> Add </button>
         </div>
     </form>
+
+    <section class="contactUs">
+    </section>
+
+    <footer>
+        <div class="foot">
+        <h2 class="footerHead">&copy;
+            Copyright 2022, JA. Manu & F.Amini
+        </h2>
+        </div>
+    </footer>
     <script src="jvs.js" type="module"></script>
 </body>
 </html>
