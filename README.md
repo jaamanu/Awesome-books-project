@@ -37,9 +37,9 @@ Deployment
 
 👤 **JAMES ASIBEY**
 
-- GitHub:
-- Twitter:
-- LinkedIn:
+-GitHub:https://github.com/jaamanu
+-Twitter:@JamesAsibeyManu
+-LinkedIn:(https://www.linkedin.com/in/jamesasibeymanu)
 
 ## Author 2
 
